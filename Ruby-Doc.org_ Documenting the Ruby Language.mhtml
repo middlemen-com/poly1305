@@ -1,0 +1,2468 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://ruby-doc.org/downloads/
+Subject: Ruby-Doc.org: Documenting the Ruby Language
+Date: Fri, 22 Nov 2019 15:50:57 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--TN6g3hrmDdyDJabMfT9OEmPzDOC27b9GdR0XAGqNKL----"
+
+
+------MultipartBoundary--TN6g3hrmDdyDJabMfT9OEmPzDOC27b9GdR0XAGqNKL----
+Content-Type: text/html
+Content-ID: <frame-A87016CDC1F562B8BBD805F1E1438CE9@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://ruby-doc.org/downloads/
+
+<!DOCTYPE html><!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks=
+-answer-neither/ --><!--[if lt IE 7]> <html class=3D"no-js ie6 oldie" lang=
+=3D"en"> <![endif]--><!--[if IE 7]>    <html class=3D"no-js ie7 oldie" lang=
+=3D"en"> <![endif]--><!--[if IE 8]>    <html class=3D"no-js ie8 oldie" lang=
+=3D"en"> <![endif]--><!-- Consider adding a manifest.appcache: h5bp.com/d/O=
+ffline --><!--[if gt IE 8]><!--><html class=3D" js flexbox canvas canvastex=
+t webgl no-touch geolocation postmessage websqldatabase indexeddb hashchang=
+e history draganddrop websockets rgba hsla multiplebgs backgroundsize borde=
+rimage borderradius boxshadow textshadow opacity cssanimations csscolumns c=
+ssgradients cssreflections csstransforms csstransforms3d csstransitions fon=
+tface generatedcontent video audio localstorage sessionstorage webworkers a=
+pplicationcache svg inlinesvg smil svgclippaths" lang=3D"en"><!--<![endif]-=
+-><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DU=
+TF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-f5db771b-6=
+f4d-4f77-931d-6b9421929511@mhtml.blink" />
+
+         =20
+          <!-- Use the .htaccess and remove these lines to avoid edge case =
+issues.
+          More info: h5bp.com/b/378 -->
+          <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge,chrome=
+=3D1">
+          <title>Ruby-Doc.org: Documenting the Ruby Language</title>
+
+          <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+          <meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-s=
+cale=3D1">
+          <link rel=3D"search" type=3D"application/opensearchdescription+xm=
+l" title=3D"Ruby-Doc Search" href=3D"https://ruby-doc.org/ruby-doc-search.x=
+ml">
+          <meta name=3D"generator" content=3D"Webby">
+          <meta name=3D"description" content=3D"Fast, searchable Ruby docum=
+entation for core and standard libraries. Plus, links to tutorials, guides,=
+ books, and related sites.">
+          <meta name=3D"robots" content=3D"NOODP">
+         =20
+          <link rel=3D"stylesheet" href=3D"https://ruby-doc.org/css/inuit.c=
+ss">
+          <link rel=3D"stylesheet" href=3D"https://ruby-doc.org/css/grid.in=
+uit.css">
+          <link href=3D"https://ruby-doc.org/css/2011.css" rel=3D"styleshee=
+t" type=3D"text/css">
+          <link href=3D"https://ruby-doc.org/css/rdoc.css" rel=3D"styleshee=
+t" type=3D"text/css">
+          <link rel=3D"stylesheet" href=3D"https://ruby-doc.org/css/carbon1=
+7.css" type=3D"text/css">
+
+
+          <link href=3D"https://ruby-doc.org/favicon.ico" rel=3D"Shortcut I=
+con" type=3D"image/x-icon">
+         =20
+         =20
+
+          <link rel=3D"stylesheet" href=3D"https://ruby-doc.org/css/extra.c=
+ss" type=3D"text/css">
+         =20
+
+         =20
+
+            </head>
+
+            <body class=3D"default">
+
+
+              <div id=3D"actionbar">
+                <div class=3D"wrapper">
+                  <ul class=3D"grids g0">
+                    <li class=3D"grid-2"><a href=3D"https://ruby-doc.org/">=
+Home</a></li>
+                    <li class=3D"grid-2"><a href=3D"https://ruby-doc.org/co=
+re">Core</a></li>
+                    <li class=3D"grid-2"><a href=3D"https://ruby-doc.org/st=
+dlib">Std-lib</a></li>
+                    <li class=3D"grid-2"><a href=3D"https://ruby-doc.org/do=
+wnloads">Downloads</a></li>
+                    <li class=3D"grid-5 right" id=3D"rd-action-search"><for=
+m id=3D"searchbox_011815814100681837392:wnccv6st5qk" action=3D"https://ruby=
+-doc.com/search.html"><input name=3D"q" type=3D"text" size=3D"20" id=3D"rd-=
+search-input">&nbsp;&nbsp;<input type=3D"submit" name=3D"sa" value=3D"Searc=
+h"></form>
+</li>
+                  </ul>
+                </div>
+                <span id=3D"vulns-alert"><!-- void  -->
+</span>
+              </div>
+
+              <!-- -->
+
+              <div class=3D"wrapper">
+                  =20
+<div class=3D"bsa-cpc"><div id=3D"_default_" data-attributes=3D"{&quot;type=
+&quot;:&quot;default&quot;,&quot;key&quot;:&quot;CKYD627W&quot;,&quot;segme=
+nt&quot;:&quot;placement:rubydocorg&quot;,&quot;options&quot;:{&quot;target=
+&quot;:&quot;.bsa-cpc&quot;,&quot;align&quot;:&quot;horizontal&quot;,&quot;=
+disable_css&quot;:&quot;true&quot;,&quot;script_id&quot;:&quot;_bsa_srv-CKY=
+D627W_0&quot;,&quot;platforms&quot;:[&quot;desktop&quot;,&quot;mobile&quot;=
+]},&quot;ads&quot;:[{&quot;active&quot;:&quot;1&quot;,&quot;ad_via_link&quo=
+t;:&quot;https://buy.buysellads.com/checkout/new/?utm_source=3Druby-doc-org=
+-default&amp;utm_medium=3Dad_via_link&amp;utm_campaign=3Din_unit&amp;utm_te=
+rm=3Ddefault&quot;,&quot;backgroundColor&quot;:&quot;#FFFFFF&quot;,&quot;ba=
+ckgroundHoverColor&quot;:&quot;#FFFFFF&quot;,&quot;bannerid&quot;:&quot;406=
+387&quot;,&quot;callToAction&quot;:&quot;Try it for Free&quot;,&quot;compan=
+y&quot;:&quot;Hotjar&quot;,&quot;creativeid&quot;:&quot;419025&quot;,&quot;=
+ctaBackgroundColor&quot;:&quot;#f4364c&quot;,&quot;ctaBackgroundHoverColor&=
+quot;:&quot;#f4364c&quot;,&quot;ctaTextColor&quot;:&quot;#FFFFFF&quot;,&quo=
+t;ctaTextColorHover&quot;:&quot;#FFFFFF&quot;,&quot;description&quot;:&quot=
+;See how your visitors are really using your website.&quot;,&quot;evenodd&q=
+uot;:&quot;0&quot;,&quot;external_id&quot;:&quot;19973&quot;,&quot;height&q=
+uot;:&quot;0&quot;,&quot;i&quot;:&quot;0&quot;,&quot;identifier&quot;:&quot=
+;0725235a14934c6406526d83e386448a&quot;,&quot;image&quot;:&quot;https://cdn=
+4.buysellads.net/uu/1/42500/1546351188-1538062800-80x80-hotjar-icon.png&quo=
+t;,&quot;logo&quot;:&quot;https://cdn4.buysellads.net/uu/1/41334/1546414089=
+-hotjar-logo.png&quot;,&quot;longimp&quot;:&quot;T47VDMBRTTTTTT6DYIVMBTTTTT=
+T4D6OJZWTTTTTTODSR5UVTTTTTT&quot;,&quot;longlink&quot;:&quot;TC7VDMBRTTTTTT=
+6DYIVMBTTTTTT4D6OJZWTTTTTTODSR5UVTTTTTTBDW5JYFC5JGHRSU5R7523UUVBI35VUCCSS2H=
+AXUPRD2ZR7NORZLK2LIBWS727LCLYS35JLW47DI67BUVSPX2MLNVBZM2WONVBZI53NC4OQC5MBC=
+BUSDKHNUTYZQKRUDBII35JWUK7PDP33LKRZW2MGNCSS55JLNAR3RCTSI62QLCKBN4KQWF67IVY7=
+NCEYDK2QLC7LDEKSHCKADK23WF3EE&quot;,&quot;rendering&quot;:&quot;default&quo=
+t;,&quot;statimp&quot;:&quot;//srv.buysellads.com/ads/imp/x/GTND42QUCEBDT23=
+MCKY4YKQMCABDTKJYCEYILZ3JCWSIVK3JCWSI527KC6BI523WCKBDEK3EHJWNBADLKM7UCBZG2Y=
+&quot;,&quot;statlink&quot;:&quot;//srv.buysellads.com/ads/click/x/GTND42QU=
+CEBDT23MCKY4YKQMCABDTKJYCEYILZ3JCWSIVK3JCWSI527KC6BI523WCKBDEK3EHJNCLSIZ&qu=
+ot;,&quot;textColor&quot;:&quot;#3c3c3c&quot;,&quot;textColorHover&quot;:&q=
+uot;#3c3c3c&quot;,&quot;timestamp&quot;:&quot;1574437743&quot;,&quot;title&=
+quot;:&quot;Hotjar&quot;,&quot;width&quot;:&quot;0&quot;,&quot;zoneid&quot;=
+:&quot;30274&quot;,&quot;zonekey&quot;:&quot;CKYD627W&quot;}]}"><span class=
+=3D"default-ad">ad</span><a href=3D"https://srv.buysellads.com/ads/click/x/=
+GTND42QUCEBDT23MCKY4YKQMCABDTKJYCEYILZ3JCWSIVK3JCWSI527KC6BI523WCKBDEK3EHJN=
+CLSIZ?segment=3Dplacement:rubydocorg;" target=3D"_blank" rel=3D"noopener sp=
+onsored" class=3D"_default_"><span class=3D"default-image"><img src=3D"http=
+s://cdn4.buysellads.net/uu/1/42500/1546351188-1538062800-80x80-hotjar-icon.=
+png" style=3D"background: #FFFFFF;"></span><div class=3D"default-text"><spa=
+n class=3D"default-title">Hotjar</span><span class=3D"default-description">=
+See how your visitors are really using your website.</span></div></a></div>=
+</div>
+
+
+
+                <div id=3D"header" class=3D"grids g1 hextra">
+
+
+                  <header class=3D"grid-16">
+                  <h1><a href=3D"https://ruby-doc.org/">Ruby-Doc.org</a></h=
+1>
+                  <p>Help and documentation for the Ruby programming langua=
+ge.</p>
+                  </header>
+
+                </div> <!-- end #header -->
+
+
+                <div class=3D"grids g2"> =20
+                  <div class=3D"grid-16">
+                    <div class=3D"grid-16 index-g0" style=3D"padding-bottom=
+:0; margin-bottom:0">
+
+<div id=3D"gettingstarted" class=3D"grid-10">
+    <div class=3D"iconaction">
+      <div class=3D"colthree">
+        <h2> Downloads </h2>
+       =20
+        <h3>The 2.6.5 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_6_5_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.6.5 source</span>
+          </li>
+        </ul>
+         <h3>The 2.6.5  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_6_5_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.6.5  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The ruby.2.7.0.preview2 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_ruby_2_7=
+_0_preview2_core_rdocs.tgz">tgz file</a> of the rdoc from Ruby ruby.2.7.0.p=
+review2 source</span>
+          </li>
+        </ul>
+         <h3>The ruby.2.7.0.preview2  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_ruby_2_7_0_pr=
+eview2_stdlib_rdocs.tgz">tgz file</a> of the ruby.2.7.0.preview2  stdlib AP=
+I files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.6.4 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_6_4_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.6.4 source</span>
+          </li>
+        </ul>
+         <h3>The 2.6.4  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_6_4_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.6.4  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.6.3 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_6_3_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.6.3 source</span>
+          </li>
+        </ul>
+         <h3>The 2.6.3  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_6_3_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.6.3  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.6.2 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_6_2_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.6.2 source</span>
+          </li>
+        </ul>
+         <h3>The 2.6.2  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_6_2_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.6.2  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.6.1 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_6_1_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.6.1 source</span>
+          </li>
+        </ul>
+         <h3>The 2.6.1  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_6_1_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.6.1  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.6 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_6_core=
+_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.6 source</span>
+          </li>
+        </ul>
+         <h3>The 2.6  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_6_stdlib_rd=
+ocs.tgz">tgz file</a> of the 2.6  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.5.6 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_5_6_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.5.6 source</span>
+          </li>
+        </ul>
+         <h3>The 2.5.6  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_5_6_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.5.6  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.5.6 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_5_6_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.5.6 source</span>
+          </li>
+        </ul>
+         <h3>The 2.5.6  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_5_6_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.5.6  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.5.5 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_5_5_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.5.5 source</span>
+          </li>
+        </ul>
+         <h3>The 2.5.5  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_5_5_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.5.5  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.5.4 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_5_4_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.5.4 source</span>
+          </li>
+        </ul>
+         <h3>The 2.5.4  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_5_4_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.5.4  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.5.3 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_5_3_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.5.3 source</span>
+          </li>
+        </ul>
+         <h3>The 2.5.3  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_5_3_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.5.3  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.5.2 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_5_2_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.5.2 source</span>
+          </li>
+        </ul>
+         <h3>The 2.5.2  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_5_2_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.5.2  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.5.1 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_5_1_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.5.1 source</span>
+          </li>
+        </ul>
+         <h3>The 2.5.1  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_5_1_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.5.1  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.5.0 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_5_0_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.5.0 source</span>
+          </li>
+        </ul>
+         <h3>The 2.5.0  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_5_0_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.5.0  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.4.9 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_4_9_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.4.9 source</span>
+          </li>
+        </ul>
+         <h3>The 2.4.9  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_4_9_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.4.9  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.4.8 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_4_8_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.4.8 source</span>
+          </li>
+        </ul>
+         <h3>The 2.4.8  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_4_8_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.4.8  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.4.7 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_4_7_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.4.7 source</span>
+          </li>
+        </ul>
+         <h3>The 2.4.7  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_4_7_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.4.7  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.4.6 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_4_6_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.4.6 source</span>
+          </li>
+        </ul>
+         <h3>The 2.4.6  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_4_6_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.4.6  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.4.5 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_4_5_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.4.5 source</span>
+          </li>
+        </ul>
+         <h3>The 2.4.5  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_4_5_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.4.5  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.4.4 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_4_4_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.4.4 source</span>
+          </li>
+        </ul>
+         <h3>The 2.4.4  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_4_4_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.4.4  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.4.3 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_4_3_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.4.3 source</span>
+          </li>
+        </ul>
+         <h3>The 2.4.3  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_4_3_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.4.3  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.4.2 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_4_2_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.4.2 source</span>
+          </li>
+        </ul>
+         <h3>The 2.4.2  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_4_2_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.4.2  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.4.1 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_4_1_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.4.1 source</span>
+          </li>
+        </ul>
+         <h3>The 2.4.1  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_4_1_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.4.1  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.4.0 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_4_0_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.4.0 source</span>
+          </li>
+        </ul>
+         <h3>The 2.4.0  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_4_0_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.4.0  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.3.8 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_3_8_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.3.8 source</span>
+          </li>
+        </ul>
+         <h3>The 2.3.8  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_3_8_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.3.8  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.3.7 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_3_7_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.3.7 source</span>
+          </li>
+        </ul>
+         <h3>The 2.3.7  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_3_7_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.3.7  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.3.6 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_3_6_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.3.6 source</span>
+          </li>
+        </ul>
+         <h3>The 2.3.6  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_3_6_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.3.6  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.3.5 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_3_5_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.3.5 source</span>
+          </li>
+        </ul>
+         <h3>The 2.3.5  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_3_5_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.3.5  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.3.4 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_3_4_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.3.4 source</span>
+          </li>
+        </ul>
+         <h3>The 2.3.4  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_3_4_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.3.4  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.3.3 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_3_3_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.3.3 source</span>
+          </li>
+        </ul>
+         <h3>The 2.3.3  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_3_3_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.3.3  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.3.2 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_3_2_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.3.2 source</span>
+          </li>
+        </ul>
+         <h3>The 2.3.2  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_3_2_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.3.2  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.3.1 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_3_1_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.3.1 source</span>
+          </li>
+        </ul>
+         <h3>The 2.3.1  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_3_1_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.3.1  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.3.0 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_3_0_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.3.0 source</span>
+          </li>
+        </ul>
+         <h3>The 2.3.0  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_3_0_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.3.0  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.2.7 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_2_7_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.2.7 source</span>
+          </li>
+        </ul>
+         <h3>The 2.2.7  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_2_7_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.2.7  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.2.6 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_2_6_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.2.6 source</span>
+          </li>
+        </ul>
+         <h3>The 2.2.6  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_2_6_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.2.6  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.2.5 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_2_5_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.2.5 source</span>
+          </li>
+        </ul>
+         <h3>The 2.2.5  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_2_5_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.2.5  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.2.4 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_2_4_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.2.4 source</span>
+          </li>
+        </ul>
+         <h3>The 2.2.4  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_2_4_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.2.4  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.2.3 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_2_3_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.2.3 source</span>
+          </li>
+        </ul>
+         <h3>The 2.2.3  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_2_3_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.2.3  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.2.2 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_2_2_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.2.2 source</span>
+          </li>
+        </ul>
+         <h3>The 2.2.2  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_2_2_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.2.2  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.2.1 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_2_1_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.2.1 source</span>
+          </li>
+        </ul>
+         <h3>The 2.2.1  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_2_1_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.2.1  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.2.0 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_2_0_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.2.0 source</span>
+          </li>
+        </ul>
+         <h3>The 2.2.0  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_2_0_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.2.0  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.1.8 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_1_8_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.1.8 source</span>
+          </li>
+        </ul>
+         <h3>The 2.1.8  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_1_8_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.1.8  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.1.7 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_1_7_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.1.7 source</span>
+          </li>
+        </ul>
+         <h3>The 2.1.7  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_1_7_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.1.7  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.1.6 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_1_6_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.1.6 source</span>
+          </li>
+        </ul>
+         <h3>The 2.1.6  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_1_6_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.1.6  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.1.5 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_1_5_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.1.5 source</span>
+          </li>
+        </ul>
+         <h3>The 2.1.5  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_1_5_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.1.5  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.1.4 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_1_4_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.1.4 source</span>
+          </li>
+        </ul>
+         <h3>The 2.1.4  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_1_4_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.1.4  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.1.3 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_1_3_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.1.3 source</span>
+          </li>
+        </ul>
+         <h3>The 2.1.3  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_1_3_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.1.3  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.1.2 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_1_2_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.1.2 source</span>
+          </li>
+        </ul>
+         <h3>The 2.1.2  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_1_2_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.1.2  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.1.1 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_1_1_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.1.1 source</span>
+          </li>
+        </ul>
+         <h3>The 2.1.1  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_1_1_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.1.1  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.1.0 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_1_0_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.1.0 source</span>
+          </li>
+        </ul>
+         <h3>The 2.1.0  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_1_0_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.1.0  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 2.0.0 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_2_0_0_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 2.0.0 source</span>
+          </li>
+        </ul>
+         <h3>The 2.0.0  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_2_0_0_stdlib_=
+rdocs.tgz">tgz file</a> of the 2.0.0  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 1.9.3 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_1_9_3_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 1.9.3 source</span>
+          </li>
+        </ul>
+         <h3>The 1.9.3  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_1_9_3_stdlib_=
+rdocs.tgz">tgz file</a> of the 1.9.3  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 1.9.2 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_1_9_2_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 1.9.2 source</span>
+          </li>
+        </ul>
+         <h3>The 1.9.2  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_1_9_2_stdlib_=
+rdocs.tgz">tgz file</a> of the 1.9.2  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 1.8.7 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_1_8_7_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 1.8.7 source</span>
+          </li>
+        </ul>
+         <h3>The 1.8.7  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_1_8_7_stdlib_=
+rdocs.tgz">tgz file</a> of the 1.8.7  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>The 1.8.6 Base Distribution RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>A <a href=3D"https://ruby-doc.org/downloads/ruby_1_8_6_co=
+re_rdocs.tgz">tgz file</a> of the rdoc from Ruby 1.8.6 source</span>
+          </li>
+        </ul>
+         <h3>The 1.8.6  Standard Library RDoc HTML</h3>
+        <ul>
+          <li>
+            <span>
+             A <a href=3D"https://ruby-doc.org/downloads/ruby_1_8_6_stdlib_=
+rdocs.tgz">tgz file</a> of the 1.8.6  stdlib API files </span>
+          </li>
+        </ul>
+       =20
+        <h3>Assorted</h3>
+        <ul>
+          <li>
+            <span>
+              <a href=3D"https://ruby-doc.org/downloads/learning-ruby.tar.g=
+z">Learning Ruby</a>
+            </span>
+          </li>
+          <li>
+            <span>
+            <cite>FOX + RUBY =3D FXRuby Par l'exemple</cite>(=20
+            <a href=3D"https://ruby-doc.org/downloads/FXRubyHTML.zip">HTML<=
+/a>,=20
+            <a href=3D"https://ruby-doc.org/downloads/FXRuby.zip">MS Word</=
+a>)</span>
+          </li>
+        </ul>
+        <h3>Translated Works</h3>
+        <h4>German</h4>
+        <ul>
+          <li>
+            <span>
+            <a href=3D"https://ruby-doc.org/downloads/Einfuhrung_in_Ruby-20=
+06-02-09.tar.bz2">Einf=C3=BChrung in Ruby</a>(work in progress; last update=
+ 2006-Feb-09)</span>
+          </li>
+        </ul>
+        <h4>French</h4>
+        <ul>
+          <li>
+            <span>
+              <a href=3D"https://ruby-doc.org/downloads/beginner-fr-0.1.tgz=
+">Apprenez Ruby</a>
+            </span>
+          </li>
+        </ul>
+        <h3>Palm PDB Files</h3>
+        <h4>
+        <a href=3D"http://www.isilo.com/">Isilo</a>format</h4>
+        <ul>
+          <li>
+            <span>
+              <a href=3D"https://ruby-doc.org/downloads/palm/isilo/Programm=
+ingRuby_isilo.pdb">Programming Ruby</a>
+            </span>
+          </li>
+        </ul>
+        <h4>
+        <a href=3D"https://ruby-doc.org/downloads/palm/isilo/ProgrammingRub=
+y_isilo.pdb">Programming Ruby</a>
+        <a href=3D"http://www.plkr.org/index.plkr">Plucker</a>format</h4>
+        <ul>
+          <li>
+            <span>
+              <a href=3D"https://ruby-doc.org/downloads/palm/plucker/clrFAQ=
+.pdb">comp.lang.ruby FAQ</a>
+            </span>
+          </li>
+          <li>
+            <span>
+              <a href=3D"https://ruby-doc.org/downloads/palm/plucker/clrFAQ=
+.pdb"></a>
+              <a href=3D"https://ruby-doc.org/downloads/palm/plucker/FAQ.pd=
+b">Ruby FAQ</a>
+            </span>
+          </li>
+          <li>
+            <span>
+              <a href=3D"https://ruby-doc.org/downloads/palm/plucker/FAQ.pd=
+b"></a>
+              <a href=3D"https://ruby-doc.org/downloads/palm/plucker/GSWR.p=
+db">Getting Started With Ruby</a>
+            </span>
+          </li>
+          <li>
+            <span>
+              <a href=3D"https://ruby-doc.org/downloads/palm/plucker/GSWR.p=
+db"></a>
+              <a href=3D"https://ruby-doc.org/downloads/palm/plucker/manual=
+.pdb">Ruby 1.4 Manual</a>
+            </span>
+          </li>
+          <li>
+            <span>
+              <a href=3D"https://ruby-doc.org/downloads/palm/plucker/manual=
+.pdb"></a>
+              <a href=3D"https://ruby-doc.org/downloads/palm/plucker/newcom=
+ers.pdb">Ruby Newcomers Guide</a>
+            </span>
+          </li>
+          <li>
+            <span>
+              <a href=3D"https://ruby-doc.org/downloads/palm/plucker/newcom=
+ers.pdb"></a>
+              <a href=3D"https://ruby-doc.org/downloads/palm/plucker/Progra=
+mmingRuby.pdb">Programming Ruby (the Pick-axe Book)</a>
+            </span>
+          </li>
+          <li>
+            <span>
+              <a href=3D"https://ruby-doc.org/downloads/palm/plucker/Progra=
+mmingRuby.pdb"></a>
+              <a href=3D"https://ruby-doc.org/downloads/palm/plucker/Tutori=
+al.pdb">Introduction to Ruby</a>
+            </span>
+          </li>
+          <li>
+            <span>
+              <a href=3D"https://ruby-doc.org/downloads/palm/plucker/Tutori=
+al.pdb"></a>
+              <a href=3D"https://ruby-doc.org/downloads/palm/plucker/UsersG=
+uide.pdb">Ruby Users Guide</a>
+            </span>
+          </li>
+          <li>
+            <span>
+              <a href=3D"https://ruby-doc.org/downloads/palm/plucker/UsersG=
+uide.pdb"></a>
+              <a href=3D"https://ruby-doc.org/downloads/palm/plucker/RubyDo=
+cs_All.pdb">All of the above Plucker docs in one PDB file</a>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div class=3D"clearit"></div>
+    </div>
+  </div>
+<div class=3D"grid-5 right">
+  <div class=3D"adzbox">
+   <div id=3D"carbonads-container"><div class=3D"carbonad"><div id=3D"azcar=
+bon"></div></div></div>
+  </div> =20
+  </div>
+</div>
+=20
+                  </div>
+
+                </div>
+
+
+                <div class=3D"grids g3">
+                  <div class=3D"grid-16">
+
+                    <!-- SIDEBAR -->
+                    <!-- %=3D render :partial =3D> "/about"  % -->
+                    <!-- END OF SIDEBAR -->
+
+                  </div>
+
+                </div>
+
+
+
+
+              </div>
+              <footer class=3D"wrapper">
+
+              <div id=3D"colophon" class=3D"grids  g3">
+  <ul class=3D"grid-5">
+    <li>The ruby-doc.org Ruby documentation project is an effort by the Rub=
+y community to provide complete and accurate documentation for the Ruby pro=
+gramming language.</li>
+
+  </ul>
+  <ul class=3D"grid-6 ">
+    <li>Actual documentation belongs to the respective authors, who deserve=
+ your recognition and praise.</li>
+    <li>See a bug or omission in the API docs?  Visit  <a href=3D"http://do=
+cumenting-ruby.org/">Documenting-ruby.org</a></li>
+  </ul>
+
+  <ul class=3D"grid-5 right">
+    <li>Ruby-doc.org is hosted and maintained by <a href=3D"http://www.jame=
+sbritt.com/">James Britt</a> and the <a href=3D"http://www.neurogami.com/">=
+Neurogami</a> secret laboratory. </li>
+  <li class=3D"oio-inline">
+
+<ins data-revive-zoneid=3D"1" data-revive-id=3D"58924a5717c091dfee6dda3f7d3=
+8c4d7" id=3D"revive-0-0"></ins>
+
+
+  </li>
+  </ul>
+
+  <ul class=3D"grid-16">
+    <li>Questions? Problems? Praise? Suggestions? Write to <a href=3D"mailt=
+o:suggestions@ruby-doc.org">suggestions@ruby-doc.org</a></li>=20
+    <li><em>Use Ruby. Be happy.</em></li>
+  </ul>
+</div>
+
+              </footer>
+
+             =20
+
+
+                             =20
+                           =20
+
+
+</body></html>
+------MultipartBoundary--TN6g3hrmDdyDJabMfT9OEmPzDOC27b9GdR0XAGqNKL----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-f5db771b-6f4d-4f77-931d-6b9421929511@mhtml.blink
+
+@charset "utf-8";
+
+#vulns-alert #vulns { width: 100%; text-align: center; background-color: rg=
+b(204, 51, 51) !important; }
+
+#vulns-alert #vulns a { color: rgb(255, 153, 153) !important; }
+
+.hextra { margin-top: 30px; }
+------MultipartBoundary--TN6g3hrmDdyDJabMfT9OEmPzDOC27b9GdR0XAGqNKL----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://ruby-doc.org/css/inuit.css
+
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, b=
+lockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, i=
+mg, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i=
+, center, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,=
+ tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, fig=
+ure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio=
+, video { margin: 0px; padding: 0px; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, =
+nav, section { display: block; }
+
+table { border-collapse: collapse; border-spacing: 0px; }
+
+fieldset, img { border: 0px; }
+
+address, caption, cite, dfn, th, var { font-style: normal; font-weight: nor=
+mal; }
+
+caption, th { text-align: left; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+
+q::before, q::after { content: ""; }
+
+abbr, acronym { border: 0px; }
+
+html { overflow-y: scroll; font-size: 100%; font-family: Georgia, "Times Ne=
+w Roman", serif; line-height: 1.5; color: rgb(51, 51, 51); }
+
+body { min-height: 100%; }
+
+.cf, .grids { zoom: 1; }
+
+.cf::before, .grids::before, .cf::after, .grids::after { content: ""; displ=
+ay: table; }
+
+.cf::after, .grids::after { clear: both; }
+
+#logo, #logo img { display: block; width: auto; height: auto; }
+
+#logo { background: url("/path/to/logo"); }
+
+#logo:hover { background-position: 0px 0px; }
+
+#logo img { position: absolute; left: -99999px; }
+
+.nav { list-style: none; margin: 0px 0px 1.5em; }
+
+.nav li { display: inline; }
+
+.nav a { display: inline-block; }
+
+h1 { font-size: 2em; margin-bottom: 0.75em; line-height: 1.5; }
+
+h2 { font-size: 1.5em; margin-bottom: 1em; line-height: 1; }
+
+h3 { font-size: 1.25em; margin-bottom: 1.2em; line-height: 1.2; }
+
+h4 { font-size: 1.125em; margin-bottom: 1.333em; line-height: 1.333; }
+
+h5 { font-weight: bold; }
+
+h5, h6 { font-size: 1em; margin-bottom: 1.5em; line-height: 1.5; }
+
+p, address { margin-bottom: 1.5em; }
+
+figure { margin-bottom: 1.5em; }
+
+figure img { display: block; margin-bottom: 0px; }
+
+figcaption { font-size: 0.75em; }
+
+a { text-decoration: none; }
+
+a:visited { opacity: 0.8; }
+
+a:hover { text-decoration: underline; }
+
+a:active, a:focus { position: relative; top: 1px; }
+
+ul, ol { margin: 0px 0px 1.5em 60px; }
+
+ul ul, ol ol, ul ol, ol ul { margin: 0px 0px 0px 60px; }
+
+ul.numbered { list-style: outside decimal; }
+
+blockquote { text-indent: -0.4em; }
+
+blockquote b, blockquote .source { display: block; text-indent: 0px; }
+
+q, i, em, cite { font-style: italic; font-weight: inherit; }
+
+b, strong { font-weight: bold; font-style: inherit; }
+
+mark { background: rgb(255, 255, 204); }
+
+s, del { text-decoration: line-through; }
+
+small { font-size: 0.75em; line-height: 1; }
+
+pre, code { font-family: monospace; font-size: 1em; }
+
+pre { overflow: auto; margin-bottom: 1.5em; line-height: 24px; }
+
+code { line-height: 1; }
+
+img { max-width: 100%; height: auto; font-style: italic; color: rgb(204, 0,=
+ 0); }
+
+img.left { margin: 0px 20px 0px 0px; }
+
+img.right { margin: 0px 0px 0px 20px; }
+
+object, embed, video { max-width: 100%; height: auto; }
+
+fieldset { padding: 10px; border: 1px solid rgb(204, 204, 204); margin-bott=
+om: 1.5em; }
+
+label { display: block; cursor: pointer; }
+
+label::after { content: ":"; }
+
+label::after { content: ":"; }
+
+input, textarea { font-family: inherit; font-size: 1em; line-height: 1.5; }
+
+[placeholder] { cursor: pointer; }
+
+[placeholder]:active, [placeholder]:focus { cursor: text; }
+
+.check-list { width: 100%; overflow: hidden; list-style: none; margin: 0px =
+0px 1.5em; }
+
+.check-list li { width: 25%; float: left; }
+
+.check-label { display: inline; }
+
+.check-label::after { content: normal; }
+
+.check-label::after { content: normal; }
+
+.button { cursor: pointer; }
+
+fieldset > :last-child { margin: 0px; }
+
+table { margin-bottom: 1.5em; width: 100%; max-width: 100%; }
+
+thead tr:last-of-type th { border-bottom-width: 2px; }
+
+tbody th { border-right-width: 2px; }
+
+th:empty { border: none; }
+
+th, td { vertical-align: top; padding: 0.75em; border: 1px solid rgb(204, 2=
+04, 204); }
+
+th { font-weight: bold; text-align: center; }
+
+table [colspan] { text-align: center; }
+
+table [rowspan] { vertical-align: middle; }
+
+[colspan=3D"1"] { text-align: left; }
+
+[rowspan=3D"1"] { vertical-align: top; }
+
+tbody tr:nth-of-type(2n+1) { background: rgba(0, 0, 0, 0.05); }
+
+tfoot { text-align: center; }
+
+tfoot td { border-top-width: 2px; }
+
+.message { font-weight: normal; display: block; padding: 10px 10px 10px 36p=
+x; border: 1px solid rgb(204, 204, 204); margin: 0px 0px 1.5em; border-radi=
+us: 2px; box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset; }
+
+ul.message { list-style: outside decimal; padding: 10px 10px 10px 56px; }
+
+.error { border-color: rgb(251, 87, 102); background: url("../images/css/ic=
+ons/error.png") 10px center no-repeat rgb(255, 170, 187); }
+
+.success { border-color: rgb(131, 186, 119); background: url("../images/css=
+/icons/success.png") 10px center no-repeat rgb(209, 254, 186); }
+
+.info { border-color: rgb(118, 128, 103); background: url("../images/css/ic=
+ons/info.png") 10px center no-repeat rgb(234, 255, 205); padding: 10px; mar=
+gin: 15px; border-radius: 2px; }
+
+.info a { font-weight: bold !important; border-bottom: 1px solid rgb(0, 0, =
+0) !important; }
+
+.warning { border-color: rgb(216, 213, 102); background: url("../images/css=
+/icons/warning.png") 10px center no-repeat rgb(254, 248, 196); }
+
+hr { margin: 0px 0px 1.5em; }
+
+.accessibility { position: absolute; left: -99999px; }
+
+.more-link::after { content: " =C2=BB"; }
+
+.more-link::after { content: " =C2=BB"; }
+
+.left { float: left !important; }
+
+.right { float: right !important; }
+
+.clear { clear: both; float: none; }
+
+.text-left { text-align: left; }
+
+.text-right { text-align: right; }
+
+.text-center, .text-centre { text-align: center; }
+
+.debug { background: url("../images/css/baseline.gif") 0px 18px rgb(255, 25=
+5, 255) !important; }
+
+.debug [style] { outline: yellow solid 5px; }
+
+.debug img { outline: red solid 5px; }
+
+.debug img[alt] { outline-color: green; }
+
+.debug img[alt=3D""] { outline-color: yellow; }
+
+.debug a { outline: yellow solid 5px; }
+
+.debug a[title] { outline-color: green; }
+
+.debug a[href=3D"#"] { outline-color: yellow; }
+
+.debug a[target] { outline-color: red; }
+
+.debug [class=3D""], .debug [id=3D""] { outline: yellow solid 5px; }
+
+@media (max-width: 960px) and (min-width: 721px) {
+}
+
+@media only screen and (max-device-width: 600px) {
+  pre, code { font-size: 2em !important; }
+}
+
+@media (max-width: 420px) {
+  .debug, .debug body { background: none !important; }
+  html { font-size: 1.125em; }
+  body { text-size-adjust: none; }
+  .wrapper { padding: 10px !important; width: auto !important; }
+  .grids { margin: 0px !important; width: auto !important; }
+  [class^=3D"grid-"], .grids [class^=3D"grid-"] { width: auto !important; f=
+loat: none !important; margin: 0px !important; }
+  #logo { margin: 0px auto 1.5em; }
+  ul, ol { margin: 0px 0px 1.5em 25px; }
+  ul ul, ol ol, ul ol, ol ul { margin: 0px 0px 0px 25px; }
+  dd { margin-left: 25px; }
+  img.left, img.right { max-width: 50%; height: auto; }
+}
+
+@media print {
+  * { background: rgb(255, 255, 255); color: rgb(0, 0, 0); text-shadow: non=
+e !important; }
+  body { font-size: 0.75em; }
+  .wrapper { width: 75%; margin: 0px auto; }
+  .nav, #footer { display: none; }
+  #logo img { position: static; }
+  .grids { width: auto; }
+  [class^=3D"grid-"] { width: auto; float: none; clear: both; }
+  img { max-width: 100%; height: auto; }
+  .message { border: none; font-weight: bold; }
+  table { break-before: page; }
+  .accessibility { position: static; }
+  a:link::after, a:visited::after { content: " (" attr(href) ")"; font-size=
+: smaller; }
+  a:link::after, a:visited::after { content: " (" attr(href) ")"; font-size=
+: smaller; }
+  a[href^=3D"/"]::after { content: " (http://yoururlhere.com" attr(href) ")=
+"; font-size: smaller; }
+  a[href^=3D"/"]::after { content: " (http://yoururlhere.com" attr(href) ")=
+"; font-size: smaller; }
+  object::after { content: "Flash/video content. Head to http://yoururlhere=
+.com/ to view this content."; display: block; font-weight: bold; margin-bot=
+tom: 1.5em; }
+  object::after { content: "Flash/video content. Head to http://yoururlhere=
+.com/ to view this content."; display: block; font-weight: bold; margin-bot=
+tom: 1.5em; }
+}
+------MultipartBoundary--TN6g3hrmDdyDJabMfT9OEmPzDOC27b9GdR0XAGqNKL----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://ruby-doc.org/css/grid.inuit.css
+
+@charset "utf-8";
+
+.wrapper { width: 940px; margin: 0px auto; padding: 0px 10px; }
+
+.grids { clear: both; max-width: 960px; margin: 0px 0px 0px -20px; list-sty=
+le: none; }
+
+[class^=3D"grid-"] { float: left; margin: 0px 20px 0px 0px; }
+
+.grids [class^=3D"grid-"] { margin: 0px 0px 0px 20px; }
+
+.grid-1 { width: 40px; }
+
+.grid-2 { width: 100px; }
+
+.grid-3 { width: 160px; }
+
+.grid-4 { width: 220px; }
+
+.grid-5 { width: 280px; }
+
+.grid-6 { width: 340px; }
+
+.grid-7 { width: 400px; }
+
+.grid-8 { width: 460px; }
+
+.grid-9 { width: 520px; }
+
+.grid-10 { width: 580px; }
+
+.grid-11 { width: 640px; }
+
+.grid-12 { width: 700px; }
+
+.grid-13 { width: 760px; }
+
+.grid-14 { width: 820px; }
+
+.grid-15 { width: 880px; }
+
+.grid-16 { width: 940px; margin: 0px; }
+------MultipartBoundary--TN6g3hrmDdyDJabMfT9OEmPzDOC27b9GdR0XAGqNKL----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://ruby-doc.org/css/2011.css
+
+@charset "utf-8";
+
+#rd-search-input { width: 180px; background-color: white; height: 1.3em; }
+
+ul#gem-indices, ul#gem-indices li { list-style: none; padding-right: 0.5em;=
+ font-size: 110%; display: inline !important; }
+
+#gem-list { margin-top: 2em; }
+
+#gem-list ul, #gem-list ul li { list-style: none; }
+
+body { background: white; color: rgb(0, 0, 0); }
+
+#header { margin-top: 1em; text-align: right; background: url("/images/logo=
+-rubydoc.gif") 850px 0px no-repeat; height: 110px !important; }
+
+#header h1 { margin: 5px 120px 5px 0px; }
+
+#header p { margin: 5px 120px 5px 0px; font-size: 1.5em; }
+
+#actionbar { font-weight: bold; width: 100%; line-height: 2em; font-family:=
+ Helvetica, Arial, sans-serif; background: rgb(100, 100, 98) !important; co=
+lor: rgb(255, 255, 255) !important; }
+
+#versionheader { width: 100%; text-align: center; background-color: rgb(204=
+, 51, 51) !important; }
+
+#versionheader a { color: rgb(255, 153, 153) !important; }
+
+#versionheader p { margin-bottom: 5px; }
+
+h1, h2, h3, h4, h5 { font-family: Georgia, "Times New Roman", serif; }
+
+#actionbar .right { text-align: right; }
+
+#actionbar form, #actionbar input { display: inline; }
+
+#actionbar li a, #actionbar li a:visited, #actionbar li a:link { opacity: 1=
+; border-bottom: none; color: rgb(255, 255, 255) !important; text-decoratio=
+n: none !important; }
+
+#actionbar li a:hover { opacity: 1; border-bottom: none; color: red !import=
+ant; text-decoration: none !important; }
+
+h2 a, h2 a:visited, h2 a:link { border-bottom: none; color: rgb(100, 100, 9=
+8) !important; text-decoration: none !important; }
+
+h1 a, h1 a:visited, h1 a:link { border-bottom: none; color: rgb(100, 100, 9=
+8) !important; text-decoration: none !important; }
+
+h2 a:hover { color: red !important; text-decoration: none !important; }
+
+a, a:visited, a:link { opacity: 1; border-bottom: 1px dotted rgb(205, 205, =
+205); color: rgb(51, 51, 51) !important; text-decoration: none !important; =
+}
+
+a:hover { opacity: 1; color: red !important; text-decoration: none !importa=
+nt; }
+
+#actionbar li { display: inline; padding: 2px 5px; }
+
+#api, #rubystuff { margin-top: 10px; }
+
+#whyruby, #core, #standardlib, #gettingstarted, #books, #stuff, #about { fo=
+nt-family: Helvetica, Arial, sans-serif; margin: 2.5em 10px; padding: 0px 1=
+0px; color: rgb(108, 108, 108); border-radius: 5px; }
+
+#core, #gettingstarted { border-right: 0px solid black; }
+
+#about { border-left: 0px solid black; }
+
+#colophon { border-top: 1px dotted rgb(110, 110, 110); color: rgb(110, 110,=
+ 110); font-size: 0.8em; }
+
+#colophon ul li { list-style: none; margin: 1em; }
+
+#colophon .grid-16 { text-align: center; }
+
+div.entries p { margin-bottom: 0.5em; }
+
+@media (max-width: 720px) {
+  li h2, h3 { margin-top: 2em; }
+  header p { font-size: 1.1em !important; font-weight: bold !important; mar=
+gin: 2px !important; }
+  header h1 { font-size: 1.2em !important; margin: 1px !important; }
+}
+------MultipartBoundary--TN6g3hrmDdyDJabMfT9OEmPzDOC27b9GdR0XAGqNKL----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://ruby-doc.org/css/rdoc.css
+
+@charset "utf-8";
+
+ol, ul { margin: 0px 0px 1.5em 8px; }
+
+#about { }
+
+.section-body { padding: 2px; }
+
+#file-index { margin: 5px 5px 20px; padding: 5px 5px 20px; }
+
+#class-index { float: left; margin: 5px; }
+
+#method-index { float: left; margin: 5px; }
+
+#file-index .title, #class-index .title, #method-index .title { font-size: =
+110%; }
+
+.ng-cm-type { color: rgb(221, 221, 221); padding: 0px 10px; }
+
+* { padding: 0px; margin: 0px; }
+
+body.class, body.module, body.file { }
+
+body.file-popup { font-size: 90%; margin-left: 0px; }
+
+:link, :visited { color: rgb(0, 119, 204); text-decoration: none; }
+
+:link:hover, :visited:hover { border-bottom: 1px dotted rgb(153, 51, 51); }
+
+pre { background: rgb(221, 221, 221); margin: 0.5em 0px; padding: 0.5em; co=
+lor: rgb(0, 0, 0); }
+
+pre.ruby { background: rgb(48, 48, 48); color: rgb(255, 255, 255); }
+
+.initially-hidden { display: none; }
+
+.quicksearch-field { width: 98%; background: rgb(221, 221, 221); border: 1p=
+x solid rgb(170, 170, 170); height: 1.5em; border-radius: 4px; }
+
+.quicksearch-field:focus { background: rgb(241, 237, 186); }
+
+.missing-docs { font-size: 120%; background: url("../images/wrench_orange.p=
+ng") 4px center no-repeat white; color: rgb(204, 204, 204); line-height: 2e=
+m; border: 1px solid rgb(221, 0, 0); opacity: 1; padding-left: 20px; text-i=
+ndent: 24px; letter-spacing: 3px; font-weight: bold; border-radius: 5px; }
+
+.target-section { border-width: 2px 2px 2px 8px; border-style: solid; borde=
+r-color: rgb(220, 206, 144); border-image: initial; padding: 0px 1em; backg=
+round: rgb(255, 243, 194); }
+
+body.indexpage { margin: 1em 3em; }
+
+body.indexpage p, body.indexpage div, body.file p { margin: 1em 0px; }
+
+.indexpage ul, .file #documentation ul { line-height: 160%; list-style: non=
+e; }
+
+.indexpage ul :link, .indexpage ul :visited { font-size: 16px; }
+
+.indexpage li, .file #documentation li { padding-left: 20px; background: ur=
+l("../images/bullet_black.png") left 4px no-repeat; }
+
+.indexpage li.module { background: url("../images/package.png") left 4px no=
+-repeat; }
+
+.indexpage li.class { background: url("../images/ruby.png") left 4px no-rep=
+eat; }
+
+.indexpage li.file { background: url("../images/page_white_text.png") left =
+4px no-repeat; }
+
+.file li p, .indexpage li p { margin: 0px; }
+
+.class #metadata, .file #metadata, .module #metadata { float: left; width: =
+260px; }
+
+.class #documentation, .file #documentation, .module #documentation { margi=
+n: 2em 1em 5em 300px; min-width: 340px; }
+
+.file #metadata { margin: 0.8em; }
+
+#validator-badges { clear: both; margin: 1em 1em 2em; }
+
+#metadata .section { background-color: rgb(238, 238, 238); border-radius: 5=
+px; border: 1px solid rgb(170, 170, 170); margin: 0px 8px 16px; font-size: =
+90%; overflow: hidden; }
+
+#metadata h3.section-header { margin: 0px; padding: 2px 8px; background: rg=
+b(204, 204, 204); color: rgb(0, 102, 136); border-top-left-radius: 4px; bor=
+der-top-right-radius: 4px; border-bottom: 1px solid rgb(170, 170, 170); }
+
+#metadata #home-section h3.section-header { border-bottom: 0px; }
+
+#metadata ul, #metadata dl, #metadata p { padding: 8px; list-style: none; }
+
+#files ul, #file-metadata ul { margin-left: 18px; list-style-image: url("..=
+/images/page_green.png"); }
+
+dl.svninfo { color: rgb(0, 102, 136); margin: 0px; }
+
+dl.svninfo dt { font-weight: bold; }
+
+ul.link-list li { white-space: nowrap; }
+
+ul.link-list { padding: 2px; margin-left: 5px; }
+
+ul.link-list .type { font-size: 8px; text-transform: uppercase; color: whit=
+e; background: rgb(239, 239, 239); padding: 2px 4px; border-radius: 5px; }
+
+#project-metadata { margin-top: 3em; }
+
+.file #project-metadata { margin-top: 0em; }
+
+#project-metadata .section { border: 1px solid rgb(170, 170, 170); }
+
+#project-metadata h3.section-header { border-bottom: 1px solid rgb(170, 170=
+, 170); position: relative; }
+
+#project-metadata h3.section-header .search-toggle { position: absolute; ri=
+ght: 5px; }
+
+#project-metadata form { color: rgb(119, 119, 119); background: rgb(204, 20=
+4, 204); padding: 8px 8px 16px; border-bottom: 1px solid rgb(187, 187, 187)=
+; }
+
+#project-metadata fieldset { border: 0px; }
+
+#no-class-search-results { margin: 0px auto 1em; text-align: center; font-s=
+ize: 14px; font-weight: bold; color: rgb(170, 170, 170); }
+
+#description { font-size: 100%; color: rgb(51, 51, 51); }
+
+#description p { margin: 1em 0.4em; }
+
+#description li p { margin: 0px; }
+
+#description ul { margin-left: 1.5em; }
+
+#description ul li { line-height: 1.4em; }
+
+#description dl, #documentation dl { margin: 8px 1.5em; border: 1px solid r=
+gb(204, 204, 204); }
+
+#description dl { font-size: 14px; }
+
+#description dt, #documentation dt { padding: 2px 4px; font-weight: bold; b=
+ackground: rgb(221, 221, 221); }
+
+#description dd, #documentation dd { padding: 2px 12px; }
+
+#description dd + dt, #documentation dd + dt { margin-top: 0.7em; }
+
+#documentation .section { font-size: 90%; }
+
+#documentation h3.section-header { margin-top: 2em; padding: 0.75em 0.5em; =
+background-color: rgb(222, 222, 222); color: rgb(51, 51, 51); font-size: 15=
+0%; border: 1px solid rgb(187, 187, 187); border-radius: 3px; }
+
+#constants-list > dl, #attributes-list > dl { margin: 1em 0px 2em; border: =
+0px; }
+
+#constants-list > dl dt, #attributes-list > dl dt { padding-left: 0px; font=
+-weight: bold; font-family: Monaco, "Andale Mono"; background: inherit; }
+
+#constants-list > dl dt a, #attributes-list > dl dt a { color: inherit; }
+
+#constants-list > dl dd, #attributes-list > dl dd { margin: 0px 0px 1em; pa=
+dding: 0px; color: rgb(0, 102, 136); }
+
+#documentation .method-source-code { display: none; }
+
+#documentation .method-detail { margin: 0.5em 0px; padding: 0.5em 0px; curs=
+or: pointer; }
+
+#documentation .method-detail:hover { background-color: rgb(238, 238, 238);=
+ color: rgb(0, 0, 0); }
+
+#documentation .method-heading { position: relative; padding: 2px 4px 0px 2=
+0px; font-size: 125%; font-weight: bold; color: rgb(51, 51, 51); background=
+: url("../images/brick.png") left bottom no-repeat; }
+
+#documentation .method-heading :link, #documentation .method-heading :visit=
+ed { color: inherit; }
+
+#documentation .method-click-advice { position: absolute; top: 2px; right: =
+5px; font-size: 10px; color: rgb(155, 152, 119); visibility: hidden; paddin=
+g-right: 20px; line-height: 20px; background: url("../images/zoom.png") rig=
+ht top no-repeat; }
+
+#documentation .method-detail:hover .method-click-advice { visibility: visi=
+ble; }
+
+#documentation .method-alias .method-heading { color: rgb(0, 102, 136); bac=
+kground: url("../images/brick_link.png") left bottom no-repeat; }
+
+#documentation .method-description, #documentation .aliases { margin: 5px 2=
+0px; }
+
+#documentation .aliases { padding-top: 4px; font-style: italic; cursor: def=
+ault; }
+
+#documentation .method-description p { padding: 0px; }
+
+#documentation .method-description p + p { margin-bottom: 0.5em; }
+
+#documentation .method-description ul { margin-left: 1.5em; }
+
+#documentation .attribute-method-heading { background: url("../images/tag_g=
+reen.png") left bottom no-repeat; }
+
+#documentation #attribute-method-details .method-detail:hover { background-=
+color: transparent; cursor: default; }
+
+#documentation .attribute-access-type { font-size: 60%; text-transform: upp=
+ercase; vertical-align: super; padding: 0px 2px; }
+
+div.method-source-code { background: rgb(38, 38, 38); color: rgb(239, 239, =
+239); margin: 1em; padding: 0.5em; border: 1px dashed rgb(153, 153, 153); o=
+verflow: hidden; }
+
+div.method-source-code pre { background: inherit; padding: 0px; color: whit=
+e; overflow: auto; }
+
+.ruby-constant { color: rgb(127, 255, 212); background: transparent; }
+
+.ruby-keyword { color: rgb(0, 255, 255); background: transparent; }
+
+.ruby-ivar { color: rgb(238, 221, 130); background: transparent; }
+
+.ruby-operator { color: rgb(0, 255, 238); background: transparent; }
+
+.ruby-identifier { color: rgb(255, 222, 173); background: transparent; }
+
+.ruby-node { color: rgb(255, 160, 122); background: transparent; }
+
+._ruby-comment { color: rgb(178, 34, 34); font-weight: bold; background: tr=
+ansparent; }
+
+.ruby-regexp { color: rgb(255, 160, 122); background: transparent; }
+
+.ruby-value { color: rgb(127, 255, 212); background: transparent; }
+
+.ruby-comment { color: rgb(94, 255, 31); font-weight: bold; background: tra=
+nsparent; }
+
+.file #metadata, .file-popup #metadata { }
+
+.file-popup dl { font-size: 80%; padding: 0.75em; background-color: rgb(222=
+, 222, 222); color: rgb(51, 51, 51); border: 1px solid rgb(187, 187, 187); =
+border-radius: 3px; }
+
+.file dt { font-weight: bold; padding-left: 22px; line-height: 20px; backgr=
+ound: url("../images/page_white_width.png") left top no-repeat; }
+
+.file dt.modified-date { background: url("../images/date.png") left top no-=
+repeat; }
+
+.file dt.requires { background: url("../images/plugin.png") left top no-rep=
+eat; }
+
+.file dt.scs-url { background: url("../images/wrench.png") left top no-repe=
+at; }
+
+.file dl dd { margin: 0px 0px 1em; }
+
+.file #metadata dl dd ul { list-style: circle; margin-left: 20px; padding-t=
+op: 0px; }
+
+.file #metadata dl dd ul li { }
+
+.file h2 { margin-top: 2em; padding: 0.75em 0.5em; background-color: rgb(22=
+2, 222, 222); color: rgb(51, 51, 51); font-size: 120%; border: 1px solid rg=
+b(187, 187, 187); border-radius: 3px; }
+
+#TB_window { font: 12px Arial, Helvetica, sans-serif; color: rgb(51, 51, 51=
+); }
+
+#TB_secondLine { font: 10px Arial, Helvetica, sans-serif; color: rgb(0, 102=
+, 136); }
+
+#TB_window :link, #TB_window :visited { color: rgb(0, 102, 136); }
+
+#TB_window :link:hover, #TB_window :visited:hover { color: rgb(0, 0, 0); }
+
+#TB_window :link:active, #TB_window :visited:active { color: rgb(0, 102, 13=
+6); }
+
+#TB_window :link:focus, #TB_window :visited:focus { color: rgb(0, 102, 136)=
+; }
+
+#TB_overlay { position: fixed; z-index: 100; top: 0px; left: 0px; height: 1=
+00%; width: 100%; }
+
+.TB_overlayMacFFBGHack { background: url("../images/macFFBgHack.png") repea=
+t; }
+
+.TB_overlayBG { background-color: rgb(0, 0, 0); opacity: 0.75; }
+
+* html #TB_overlay { position: absolute; }
+
+#TB_window { position: fixed; background: rgb(255, 255, 255); z-index: 102;=
+ color: rgb(0, 0, 0); display: none; border: 4px solid rgb(82, 82, 82); tex=
+t-align: left; top: 50%; left: 50%; }
+
+* html #TB_window { position: absolute; }
+
+#TB_window img#TB_Image { display: block; margin: 15px 0px 0px 15px; border=
+-width: 1px; border-style: solid; border-color: rgb(0, 102, 136) rgb(204, 2=
+04, 204) rgb(204, 204, 204) rgb(0, 102, 136); }
+
+#TB_caption { height: 25px; padding: 7px 30px 10px 25px; float: left; }
+
+#TB_closeWindow { height: 25px; padding: 11px 25px 10px 0px; float: right; =
+}
+
+#TB_closeAjaxWindow { padding: 7px 10px 5px 0px; margin-bottom: 1px; text-a=
+lign: right; float: right; }
+
+#TB_ajaxWindowTitle { float: left; padding: 7px 0px 5px 10px; margin-bottom=
+: 1px; font-size: 22px; }
+
+#TB_title { background-color: rgb(0, 119, 204); color: rgb(222, 222, 222); =
+height: 40px; }
+
+#TB_title :link, #TB_title :visited { border-bottom: 1px dotted rgb(222, 22=
+2, 222); color: white !important; }
+
+#TB_ajaxContent { clear: both; padding: 2px 15px 15px; overflow: auto; text=
+-align: left; line-height: 1.4em; }
+
+#TB_ajaxContent.TB_modal { padding: 15px; }
+
+#TB_ajaxContent p { padding: 5px 0px; }
+
+#TB_load { position: fixed; display: none; height: 13px; width: 208px; z-in=
+dex: 103; top: 50%; left: 50%; margin: -6px 0px 0px -104px; }
+
+* html #TB_load { position: absolute; }
+
+#TB_HideSelect { z-index: 99; position: fixed; top: 0px; left: 0px; backgro=
+und-color: rgb(255, 255, 255); border: none; opacity: 0; height: 100%; widt=
+h: 100%; }
+
+* html #TB_HideSelect { position: absolute; }
+
+#TB_iframeContent { clear: both; border: none; margin-bottom: -1px; margin-=
+top: 1px; }
+
+#debugging-toggle { text-align: center; }
+
+#debugging-toggle img { cursor: pointer; }
+
+#rdoc-debugging-section-dump { display: none; margin: 0px 2em 2em; backgrou=
+nd: rgb(204, 204, 204); border: 1px solid rgb(153, 153, 153); }
+
+.search-field { font-family: Monaco, Consolas, "Lucida Console", monospace;=
+ left: 203px; padding: 0px 1px 2px 2px; background: rgb(245, 245, 245); bor=
+der: 1px solid silver; color: silver; width: 8em; margin-bottom: 10px; }
+
+.search-field.active { background: rgb(255, 255, 250); color: black; }
+
+.indexpage .entries { padding: 0.2em 0px; font-size: 80%; overflow: hidden =
+auto; }
+
+#class-index .entries, #method-index .entries { width: 460px; text-overflow=
+: ellipsis; }
+
+.indexpage p { white-space: nowrap; }
+
+.indexpage .type { color: rgb(68, 68, 68); font-size: 75%; padding-left: 0.=
+67ex; display: inline-block; width: 0.85em; }
+
+.indexpage a, .indexpage a:hover { padding: 0px 0.5ex; }
+
+#footer { margin-top: 50px; font-size: 0.75em; text-align: center; }
+
+body.index #footer { color: rgb(153, 153, 153); margin-top: 30px; position:=
+ fixed; bottom: 0px; width: 90%; height: 30px; text-align: right; font-size=
+: 0.75em; }
+
+h1, h2, h3, h4, h5, h6 { font-family: Georgia, "Times New Roman", serif; co=
+lor: rgb(108, 108, 108); }
+
+.index-g1 h2 a, .index-g1 h2 a:visited, .index-g1 h2 a:link, .index-g0 h2 a=
+, .index-g0 h2 a:visited, .index-g0 h2 a:link { border-bottom: none; color:=
+ rgb(199, 33, 27) !important; text-decoration: none !important; }
+
+h2 a, h2 a:visited, h2 a:link { color: rgb(255, 255, 255); border-bottom: n=
+one; text-decoration: none !important; }
+
+#description h2 a, #description h2 a:visited, #description h2 a:link { colo=
+r: rgb(204, 51, 51); border-bottom: none; text-decoration: none !important;=
+ }
+
+h1 a, h1 a:visited, h1 a:link { border-bottom: none; text-decoration: none =
+!important; }
+
+#documentation h1 a, #documentation h1 a:visited, #documentation h1 a:link =
+{ color: rgb(51, 51, 51) !important; }
+
+h2 a:hover { color: red !important; text-decoration: none !important; }
+
+html { color: rgb(108, 108, 108); }
+
+a, a:visited, a:link { opacity: 1; border-bottom: 1px dotted rgb(205, 205, =
+205); color: rgb(51, 51, 51) !important; text-decoration: none !important; =
+}
+
+a:hover { opacity: 1; color: red !important; text-decoration: none !importa=
+nt; }
+
+#header { margin-top: 1em; text-align: right; background: url("../images/lo=
+go-rubydoc.gif") 850px 0px no-repeat; height: 120px; }
+
+#header h1 { margin: 5px 120px 5px 0px; }
+
+#header p { margin: 5px 120px 5px 0px; font-size: 1.5em; }
+
+#OLD_actionbar { font-weight: bold; line-height: 2em; height: 2em; font-fam=
+ily: Helvetica, Arial, sans-serif; border: 1px solid rgb(100, 100, 98); bac=
+kground: rgb(100, 100, 98) !important; color: rgb(255, 255, 255) !important=
+; width: 100% !important; }
+
+#OLD_actionbar .right { text-align: right; }
+
+#OLD_actionbar li a, #OLD_actionbar li a:visited, #OLD_actionbar li a:link =
+{ opacity: 1; border-bottom: none; color: rgb(255, 255, 255) !important; te=
+xt-decoration: none !important; }
+
+#OLD_actionbar li a:hover { opacity: 1; border-bottom: none; color: red !im=
+portant; text-decoration: none !important; }
+
+#OLD_actionbar li { display: inline; padding: 2px 5px; }
+
+.wrapper { width: 960px; margin: 0px auto; padding: 0px 10px; }
+
+#alternateFormatLink { position: fixed; background: none rgba(255, 255, 255=
+, 0.5); border: 1px solid rgb(254, 254, 254); width: 150px; z-index: 100; m=
+argin: 0px; right: 0px; top: 140px; font-size: 60%; }
+
+.rdocstar #alternateFormatLink { right: -50px !important; }
+
+#alternateFormatLink { display: block; margin: 0px 0.5em; }
+
+.rotate { transform: rotate(90deg); transform-origin: 50% 50%; }
+
+#carbonads, #carbonads_1 { border: 1px dotted rgb(255, 204, 204); padding: =
+5px; margin: 30px 2px 70px; }
+
+.carbon-text { display: block; }
+
+@media print {
+  .wrapper { width: 75%; margin: 0px auto; }
+}
+
+.wrapper { width: 1010px; margin: 0px auto; padding: 0px 10px; }
+
+.class #documentation, .file #documentation, .module #documentation { min-w=
+idth: 340px; max-width: 560px; }
+
+div.adzbox, div.adzbox-index, div.adzbox-adjecent-files, div.adzbox-no-file=
+s-index { height: 250px; width: 160px; float: right; margin-right: -40px; }
+
+div.adzbox-no-files-index { margin-top: -220px; margin-right: -40px; }
+
+div.adzbox-index { margin-top: 1px; margin-right: 60px; }
+
+div.adzbox-adjecent-files { margin-top: -10px; margin-right: -30px; }
+
+div.adzbox { margin-top: 200px; }
+
+#extraz { float: right; width: 170px; height: 260px; margin-right: -100px; =
+}
+
+.rd-ab-msg { font-family: Helvetica, Arial, sans-serif; border: 1px solid r=
+gb(171, 84, 84); padding: 5px; margin-right: 20px; color: rgb(153, 153, 153=
+); background: rgb(253, 253, 253); font-size: 12px; font-weight: bold; }
+------MultipartBoundary--TN6g3hrmDdyDJabMfT9OEmPzDOC27b9GdR0XAGqNKL----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://ruby-doc.org/images/logo-rubydoc.gif
+
+R0lGODlhZABhAOMLALogGbwgGcciG90nIPMsJPMwJ/MzKoiIiPzKyP3X1v7k4///////////////
+/////ywAAAAAZABhAAAE/nDJSau9OOvNu/9gKI5kaZ5oehJs67pKrKh0vbx4K892b+a5nW84AuKE
+xOTGCEQ4ETKltMLMPaGxqfZWfV2j22HXeH2Cw7Rxs4zloVVqK/v8RsVx7HZ9dZfn2257H31+eUiC
+g4Ref4CIHIpGCZIJjHqOF5BAk5SMdJcTmTmblZ6fXKEuo51ZpqeoL5uTpKVvr6KxnH+HgrY4uLmG
+tFq9LwPGO7iVlmHELsYDyLHKwknNLc/RqquBw9YE2DLJs9xE3t/P4DsKv+PkNebo6dnawaxi3vHH
+6uviutQ/+PLJ28du3LuAAqHtC9fPn7sS8BIqXMhPmsE0CAVSjFFwm52M/hIHABhJEkCAkygDCFjJ
+UkDIj9ZCoitJMiXKlixf8okp0xjNkTZP4lyps8gYA0jV9Fy6lAnEo0nHMJ0q0SkJNUgNKKXKFZ1V
+o12ybu3a9asHNQXSFhjTkixZsx3QqmWb0y1XuI/GqF3bpa1dqngxyOXbd2jdvzIDY9KbVo3hw4ir
+GjnLmHCVx0Qjh1RsYbBjzJo3T47bCzPo0F5H57Vl+jHq1EAos2499PUzzlRQ0ab9GjeFV7tb91a9
+RHfw06F9g4J0vHlk5RIyNT/+nLgG6dN3V49NWlF27Yihu6L7fbpd8X3KZz9vPUN69c7doicPv/zd
+9oLp118PGP/iwvt9q3cfd6tdFqCA/RFYHBAHHsjUfAw2uN+D/nVmhIQTNlVhbhFimKFkCl53oYcf
+JgRhDiSWKNCJOKRYX2Ib/jaiiyoaw+ILNAa4YozLdZijejuG6N6MP754G4/REVkkkEcKmZ+PS9rX
+ZA6yoRglfLBR2Z05XEJSZZdgxvFlmGTeWOaZL4yJ5poEqMnmmW6+SWaccoJJZ51c3omnN6306eef
+gAYq6KCEFmrooTZEAAA7
+
+------MultipartBoundary--TN6g3hrmDdyDJabMfT9OEmPzDOC27b9GdR0XAGqNKL----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://ruby-doc.org/css/carbon17.css
+
+@charset "utf-8";
+
+.bsa-cpc #_default_ { position: relative; margin-top: 5px; margin-bottom: 2=
+0px; padding: 8px 12px; border: 2px dashed rgb(235, 235, 234); background-c=
+olor: rgb(245, 245, 245); font-size: 12px; line-height: 1.5; }
+
+.bsa-cpc .default-ad { display: none; }
+
+.bsa-cpc ._default_ { display: inline; overflow: hidden; line-height: 1; }
+
+.bsa-cpc ._default_ > * { vertical-align: middle; }
+
+.bsa-cpc a { border: 0px; color: inherit; font-family: Verdana, sans-serif;=
+ }
+
+.bsa-cpc a:hover { border: 0px; color: inherit; }
+
+.bsa-cpc .default-image { display: none; }
+
+.bsa-cpc .default-title::after { content: "=C2=A0=E2=80=94=C2=A0"; }
+
+.bsa-cpc .default-title, .bsa-cpc .default-description { display: inline; }
+
+.bsa-cpc .default-title { position: relative; margin-left: 8px; }
+
+.bsa-cpc .default-title::before { position: relative; top: -1px; left: -8px=
+; padding: 2px 5px; border: 1px solid rgb(76, 175, 80); border-radius: 2px;=
+ color: rgb(76, 175, 80); content: "Sponsor"; text-transform: uppercase; fo=
+nt-size: 10px; font-family: Verdana, sans-serif; line-height: 1; }
+------MultipartBoundary--TN6g3hrmDdyDJabMfT9OEmPzDOC27b9GdR0XAGqNKL----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://ruby-doc.org/css/extra.css
+
+@charset "utf-8";
+
+.adzbox-main { background-color: rgb(255, 255, 255); border: 0px solid rgb(=
+51, 51, 51); float: right; height: 600px; margin-right: -70px; margin-top: =
+200px; }
+
+.adzbox-main_ { margin-top: 200px; }
+
+.oio-inline { padding: 0px; margin: 0px; }
+
+.oio-inline div ul.oio-link-list { margin: 0px; padding: 0px; }
+
+.oio-inline div ul.oio-link-list li { padding: 0px; margin: 0px !important;=
+ }
+
+ul.oio-link-list li { list-style-type: none; padding: 0px; margin: 0px; }
+
+ul.main-sub { margin: 0px 0px 0px 20px; }
+
+#vulns-alert #vulns { width: 100%; text-align: center; background-color: rg=
+b(204, 51, 51) !important; }
+
+#vulns-alert #vulns a { color: rgb(255, 153, 153) !important; }
+
+.guidelines li { padding-bottom: 0.5em; }
+
+ul.guidelines { margin-bottom: 1em; }
+
+#carbonads { width: 175px; }
+
+.carbon-img a { width: 175px; }
+
+#oioads { background-color: rgb(0, 255, 255); position: fixed; top: 1000px;=
+ display: block; overflow: hidden; padding: 1em; font-size: 0.9em; line-hei=
+ght: 1.5; width: 175px !important; }
+
+#carbonads { position: fixed; top: 290px; display: block; overflow: hidden;=
+ padding: 1em; font-size: 0.9em; line-height: 1.5; width: 175px !important;=
+ }
+
+#carbonads a { border-bottom: 0px; }
+
+#carbonads span { display: block; overflow: hidden; }
+
+.carbon-text { display: block; margin-bottom: 1em; text-align: left; }
+
+.carbon-img { display: block; margin-bottom: 1em; }
+
+.carbon-img { display: block; margin: 0px auto; }
+
+.carbon-poweredby { display: block; text-align: right; font-size: 0.8em; }
+
+@media (max-width: 420px) {
+  #carbonads { display: none !important; }
+}
+
+@media (max-width: 720px) {
+}
+
+code { text-size-adjust: none !important; }
+------MultipartBoundary--TN6g3hrmDdyDJabMfT9OEmPzDOC27b9GdR0XAGqNKL----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://cdn4.buysellads.net/uu/1/42500/1546351188-1538062800-80x80-hotjar-icon.png
+
+iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAEDWlDQ1BJQ0MgUHJvZmlsZQAAOI2N
+VV1oHFUUPrtzZyMkzlNsNIV0qD8NJQ2TVjShtLp/3d02bpZJNtoi6GT27s6Yyc44M7v9oU9FUHwx
+6psUxL+3gCAo9Q/bPrQvlQol2tQgKD60+INQ6Ium65k7M5lpurHeZe58853vnnvuuWfvBei5qliW
+kRQBFpquLRcy4nOHj4g9K5CEh6AXBqFXUR0rXalMAjZPC3e1W99Dwntf2dXd/p+tt0YdFSBxH2Kz
+5qgLiI8B8KdVy3YBevqRHz/qWh72Yui3MUDEL3q44WPXw3M+fo1pZuQs4tOIBVVTaoiXEI/MxfhG
+DPsxsNZfoE1q66ro5aJim3XdoLFw72H+n23BaIXzbcOnz5mfPoTvYVz7KzUl5+FRxEuqkp9G/Aji
+a219thzg25abkRE/BpDc3pqvphHvRFys2weqvp+krbWKIX7nhDbzLOItiM8358pTwdirqpPFnMF2
+xLc1WvLyOwTAibpbmvHHcvttU57y5+XqNZrLe3lE/Pq8eUj2fXKfOe3pfOjzhJYtB/yll5SDFcSD
+iH+hRkH25+L+sdxKEAMZahrlSX8ukqMOWy/jXW2m6M9LDBc31B9LFuv6gVKg/0Szi3KAr1kGq1GM
+jU/aLbnq6/lRxc4XfJ98hTargX++DbMJBSiYMIe9Ck1YAxFkKEAG3xbYaKmDDgYyFK0UGYpfoWYX
+G+fAPPI6tJnNwb7ClP7IyF+D+bjOtCpkhz6CFrIa/I6sFtNl8auFXGMTP34sNwI/JhkgEtmDz14y
+SfaRcTIBInmKPE32kxyyE2Tv+thKbEVePDfW/byMM1Kmm0XdObS7oGD/MypMXFPXrCwOtoYjyyn7
+BV29/MZfsVzpLDdRtuIZnbpXzvlf+ev8MvYr/Gqk4H/kV/G3csdazLuyTMPsbFhzd1UabQbjFvDR
+mcWJxR3zcfHkVw9GfpbJmeev9F08WW8uDkaslwX6avlWGU6NRKz0g/SHtCy9J30o/ca9zX3Kfc19
+zn3BXQKRO8ud477hLnAfc1/G9mrzGlrfexZ5GLdn6ZZrrEohI2wVHhZywjbhUWEy8icMCGNCUdiB
+lq3r+xafL549HQ5jH+an+1y+LlYBifuxAvRN/lVVVOlwlCkdVm9NOL5BE4wkQ2SMlDZU97hX86Ei
+lU/lUmkQUztTE6mx1EEPh7OmdqBtAvv8HdWpbrJS6tJj3n0CWdM6busNzRV3S9KTYhqvNiqWmuro
+iKgYhshMjmhTh9ptWhsF7970j/SbMrsPE1suR5z7DMC+P/Hs+y7ijrQAlhyAgccjbhjPygfeBTjz
+hNqy28EdkUh8C+DU9+z2v/oyeH791OncxHOs5y2AtTc7nb/f73TWPkD/qwBnjX8BoJ98VVBg/m8A
+AAAJcEhZcwAACxMAAAsTAQCanBgAAAFZaVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8eDp4bXBt
+ZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA1LjQuMCI+CiAg
+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3lu
+dGF4LW5zIyI+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAg
+IHhtbG5zOnRpZmY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vdGlmZi8xLjAvIj4KICAgICAgICAgPHRp
+ZmY6T3JpZW50YXRpb24+MTwvdGlmZjpPcmllbnRhdGlvbj4KICAgICAgPC9yZGY6RGVzY3JpcHRp
+b24+CiAgIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+CkzCJ1kAABkySURBVHgB7VwLlF5Vdf7uP/+8
+MplJJskkM0kIeb+ACBUQiVqhUrTYKspTtPJQW1irWouP5dtShFZcXbisq9VSratgu7BWKGCVVRSr
+EgVFS4AkkBcCgZDXTJLJzPyPe/t9e5/zzz9D5pHJzBC7OP/ce177nLPPd/be53HvnSSjw8tuzAjk
+xlzy5YKGwMsAHqUgTB6A/08tRf4oB2D0xZMESFPS0+efOaX9lrvJkcBi0WHKsbmcAAyXpFKgyv8t
+ldCJlUCBQrCy3ftQuOVWJO2zkFtwHHKrlyOZ1oKkpdnBjFIYgYwAx/Rj2J9YAAUEQUk6ZiNZMA/F
+yy+h9q4Gpk9Bcvoy1Jz1KuSWLUHNGqbNn4uksWEgoJLOYxzMZMLXgUEKJUR9H70O5c/fDiyfBTx/
+ANj/DFNTJHOWAKeuQO7sM5A/7RTkTlqNZHpLv9xVJJMm4BgzmxMPoGCQJNH+pU9uRd/r3olsSo3F
+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
+AAAASUVORK5CYII=
+
+------MultipartBoundary--TN6g3hrmDdyDJabMfT9OEmPzDOC27b9GdR0XAGqNKL------
